@@ -1,0 +1,28 @@
+Aquinea is a procedurally generated underwater scene generator written in C++ using OpenGL.
+Scenes contain a terrain generated from simplex noise, along with procedurally generated rocks, animated coral and seaweed.
+The program uses the phong illumination model including directional lights, spotlights, and moving point lights (glowing fish).
+The program uses a quaternion based camera and supports the interactive element of shooting harpoons by clicking the mouse.
+
+USER MANUAL
+
+This project requires the following dependencies:
+OpenGL 3.3
+GLFW3
+GLEW (static)
+SOIL
+
+Controls
+Movement:
+W: swim forward
+A: strafe left
+S: swim backward
+D: strafe right
+Q: roll left
+E: roll right
+Left shift: sprint
+Left alt: creep (move slowly)
+Left ctrl: swim down
+Space bar: swim up 
+
+Interaction:
+	Left mouse click: Shoot harpoon
